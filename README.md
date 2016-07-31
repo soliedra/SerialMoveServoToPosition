@@ -43,8 +43,10 @@ Front view of the Sensors location
        ***
  CW(+)<---> CCW (-)
  
+*** 
 Encoder A -> D2 Arduino, external interrupt
 Encoder B -> D3 Arduino, external interrupt
+***
 
 Activation sequence
                  ______        ______
