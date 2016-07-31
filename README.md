@@ -1,6 +1,6 @@
 #SerialMoveServoToPosition
 
-Controls the position of a [DCMotorServo] (https://github.com/soliedra/DCMotorServo).
+Controls the position of a DIY Servo Motor [DCMotorServo] (https://github.com/soliedra/DCMotorServo).
 
 The target position is received through the Serial Port 
 
@@ -14,9 +14,9 @@ The target position is received through the Serial Port
 ##Hardware:
 - [Arduino Mini](https://www.arduino.cc/en/Main/ArduinoBoardMini) V3.0 Atmega 328P as the microcontroller.
 - [Pololu VNH519 Motor driver](https://www.pololu.com/product/1451) to drive the DC Motor
-- [Pololu QTR-1RC] (https://www.pololu.com/product/2459) to make a DIY Quad encoder
+- [Pololu QTR-1RC] (https://www.pololu.com/product/2459) to make a DIY Quad encoder that can do 32 CPR in the output shaft (not the motor's)
 - A 12V geared DC motor from a battery drill. Output speed approx 600rpm.
-- 12V 7000mAh Lead battery. This DIY Servo Motor needs 34 Ams for a split of a second to start moving big loads. Under normal operation it consumes 2 Amps.But the initial stroke is important to reach the target position inmediately.
+- 12V 7000mAh Lead battery. This DIY Servo Motor needs 34 Ams for a split of a second to start moving big loads. Under normal operation it consumes 2 Amps. But the initial stroke is important to reach the target position inmediately.
 
 ##Connections:
 ###VNH519MotorDriver:
