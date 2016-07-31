@@ -26,9 +26,6 @@ VNH519MotorDriver:
 
         B
        ***
-      *   * A
-       ***
- CW(+)<---> CCW (-)
  Function      |  Pin  | Arduino Pin | I/O
  ..........................................
  Direction CW  | INA   | D5          | I
