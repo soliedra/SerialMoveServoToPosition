@@ -24,16 +24,12 @@ Connections:
 ------------
 VNH519MotorDriver:
 
-        B
-       ***
- Function      |  Pin  | Arduino Pin | I/O
- ..........................................
- Direction CW  | INA   | D5          | I
- ..........................................
- Direction CCW | INB   | D7          | I
- ..........................................
- Speed (0-255) | PWM   | D6          | I
- ..........................................
+<table>
+<tr><td>Function</td><td>Pin</td><td>Arduino Pin</td></tr>
+<tr><td>Direction CW</td><td>INA</td><td>D5</td></tr>
+<tr><td>Direction CCW</td><td>INB</td><td>D7</td></tr>
+<tr><td>Speed (0-255)</td><td>PWM</td><td>D6</td></tr>
+</table>
 
 Brake: INA and INB set to HIGH
 
