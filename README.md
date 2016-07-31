@@ -4,6 +4,11 @@ Controls the position of a DIY Servo Motor [DCMotorServo] (https://github.com/so
 
 The target position is received through the Serial Port 
 
+It's important to understand that the Encoder library is based on interrupts and consumes alot od CPU time.
+Don't add more code to the main loop. If you need more logic in your project, use another Arduino to manage inputs, timings, user interface and
+just send the position where you want the servomotor to move through the serial port as a number to the Arduino that
+runs this sketch.
+
 ##Libraries used:
 - [DCMotorServo] (https://github.com/soliedra/DCMotorServo) from julester23 modified by Javier Casado
 - [MotorDriver] (https://github.com/soliedra/MotorDriver) from Javier Casado
@@ -56,6 +61,10 @@ Activation sequence
 Created by Javier Casado July 2016
 
 License: CC BY
+
+### TO DO
+- Add another Serial interface to configure the servomotor parameters through commands like AT commands.
+- Store the config parameters, now harcoded in the EEPROM memory
 
 
 
