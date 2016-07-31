@@ -12,6 +12,11 @@ If you need more logic in your project, use another Arduino board to manage inpu
 just send the position where you want the servomotor to move through the serial port as a number to the Arduino board that
 runs this sketch.
 
+The Arduino that controls the DIY Servo Motor is powered independently from the DC Motor.
+
+Notice!! To be able to reprogram the Arduino that controls the DIY Servo motor, once connected to the other 
+Arduino don't forget to disconnect the RS232 cables to pins D0 and D1.
+
 ##Libraries used:
 - [DCMotorServo] (https://github.com/soliedra/DCMotorServo) from julester23 modified by Javier Casado
 - [MotorDriver] (https://github.com/soliedra/MotorDriver) from Javier Casado
@@ -25,7 +30,7 @@ runs this sketch.
 - [Pololu QTR-1RC] (https://www.pololu.com/product/2459) to make a DIY Quad encoder that can do 32 CPR in the output shaft (not the motor's)
 - A 12V geared DC motor from a battery drill. Output speed approx 600rpm.
 - 12V 7000mAh Lead battery. This DIY Servo Motor needs 34 Ams for a split of a second to start moving big loads. Under normal operation it consumes 2 Amps. But the initial stroke is important to reach the target position inmediately.
-
+- An additional battery (minimum 7V to power the Arduino board)
 ##Connections:
 ###VNH519MotorDriver:
 
