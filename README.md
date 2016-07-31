@@ -22,7 +22,6 @@ Hardware:
 
 Connections:
 ------------
-Front view of the Sensors location
 VNH519MotorDriver:
 
         B
