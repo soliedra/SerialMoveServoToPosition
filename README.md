@@ -23,15 +23,13 @@ Hardware:
 Connections:
 ------------
 Front view of the Sensors location
+VNH519MotorDriver:
 
         B
        ***
       *   * A
        ***
  CW(+)<---> CCW (-)
- 
-VNH519MotorDriver:
-
  Function      |  Pin  | Arduino Pin | I/O
  ..........................................
  Direction CW  | INA   | D5          | I
