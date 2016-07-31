@@ -16,7 +16,7 @@ The target position is received through the Serial Port
 - [Pololu VNH519 Motor driver](https://www.pololu.com/product/1451) to drive the DC Motor
 - [Pololu QTR-1RC] (https://www.pololu.com/product/2459) to make a DIY Quad encoder
 - A 12V geared DC motor from a battery drill. Output speed approx 600rpm.
-- 12V 7000mAh Lead battery. This DIY Servo Motor needs 34Ams for a split of a second to start moving big loads. In normal opration it consumes 2Amps.But the initial stroke is important.
+- 12V 7000mAh Lead battery. This DIY Servo Motor needs 34 Ams for a split of a second to start moving big loads. Under normal operation it consumes 2 Amps.But the initial stroke is important to reach the target position inmediately.
 
 ##Connections:
 ###VNH519MotorDriver:
