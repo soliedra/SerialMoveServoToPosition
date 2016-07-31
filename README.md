@@ -1,8 +1,8 @@
 #SerialMoveServoToPosition
 
-Controls de position of a [DCMotorServo] (https://github.com/soliedra/DCMotorServo).
+Controls the position of a [DCMotorServo] (https://github.com/soliedra/DCMotorServo).
 
-The target position is received through the SerialPort 
+The target position is received through the Serial Port 
 
 Libraries used:
 ---------------
@@ -24,6 +24,7 @@ Connections:
 ------------
 
 VNH519MotorDriver:
+------------------
 
 Function      |  Pin  | Arduino Pin | I/O
 ------------------------------------------
