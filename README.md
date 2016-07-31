@@ -6,11 +6,11 @@ The target position is received through the SerialPort
 
 Libraries used:
 ---------------
--[DCMotorServo] (https://github.com/soliedra/DCMotorServo) from julester23 modified by Javier Casado
--[MotorDriver] (https://github.com/soliedra/MotorDriver) from Javier Casado
--[VNH519MotorDriver] (https://github.com/soliedra/VNH5019MotorDriver) implementaion of MotorDriver for the Pololu VNH519 driver from Javier Casado
--[Encoder](http://www.pjrc.com/teensy/td_libs_Encoder.html) to measure the feedback from the Servo quadrature encoders
--[PID] (http://playground.arduino.cc/Code/PIDLibrary) to control the servo using a PID 
+- [DCMotorServo] (https://github.com/soliedra/DCMotorServo) from julester23 modified by Javier Casado
+- [MotorDriver] (https://github.com/soliedra/MotorDriver) from Javier Casado
+- [VNH519MotorDriver] (https://github.com/soliedra/VNH5019MotorDriver) implementaion of MotorDriver for the Pololu VNH519 driver from Javier Casado
+- [Encoder](http://www.pjrc.com/teensy/td_libs_Encoder.html) to measure the feedback from the Servo quadrature encoders
+- [PID] (http://playground.arduino.cc/Code/PIDLibrary) to control the servo using a PID 
 
 Hardware:
 --------
