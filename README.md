@@ -4,7 +4,7 @@ Controls the position of a [DCMotorServo] (https://github.com/soliedra/DCMotorSe
 
 The target position is received through the Serial Port 
 
-Libraries used:
+##Libraries used:
 ---------------
 - [DCMotorServo] (https://github.com/soliedra/DCMotorServo) from julester23 modified by Javier Casado
 - [MotorDriver] (https://github.com/soliedra/MotorDriver) from Javier Casado
@@ -12,7 +12,7 @@ Libraries used:
 - [Encoder](http://www.pjrc.com/teensy/td_libs_Encoder.html) to measure the feedback from the Servo quadrature encoders
 - [PID] (http://playground.arduino.cc/Code/PIDLibrary) to control the servo using a PID 
 
-Hardware:
+##Hardware:
 --------
 - [Arduino Mini](https://www.arduino.cc/en/Main/ArduinoBoardMini) V3.0 Atmega 328P as the microcontroller.
 - [Pololu VNH519 Motor driver](https://www.pololu.com/product/1451) to drive the DC Motor
@@ -36,17 +36,17 @@ Brake: INA and INB set to HIGH
 QTR-1RC sensors:
 
 Front view of the Sensors location
-
+```
         B
        ***
       *   * A
        ***
  CW(+)<---> CCW (-)
  
-*** 
-** Encoder A -> D2 Arduino, external interrupt
-*** Encoder B -> D3 Arduino, external interrupt
-***
+
+Encoder A -> D2 Arduino, external interrupt
+Encoder B -> D3 Arduino, external interrupt
+
 
 Activation sequence
                  ______        ______
@@ -55,7 +55,10 @@ Activation sequence
   Encoder B  ______|      |______|      |______
              CCW-->(-)                   (+) <--CW
 
+```
 Created by Javier Casado July 2016
+
+License: CC BY
 
 
 
