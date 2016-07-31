@@ -8,7 +8,7 @@ It's important to understand that the Encoder library is based on interrupts and
 Don't add more code in the main loop, keep it as efficient and smooth running as possible, otherwise you'll genereate unestable behavior in the Servo  Motor. 
 Anything that has to do with timing such as AD conversion and delays doesn't work well in this sketch and will interfere with it's main duty, that is driving the servo
 to the target position, nothing more, nothing less.
-If you need more logic in your project, use another Arduino board to manage inputs, timings, user interface and
+If you need more logic in your project, use another Arduino board to manage inputs, timings, user interface etc. And
 just send the position where you want the servomotor to move through the serial port as a number to the Arduino board that
 runs this sketch.
 
