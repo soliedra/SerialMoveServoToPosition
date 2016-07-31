@@ -22,7 +22,14 @@ Hardware:
 
 Connections:
 ------------
+Front view of the Sensors location
 
+        B
+       ***
+      *   * A
+       ***
+ CW(+)<---> CCW (-)
+ 
 VNH519MotorDriver:
 
  Function      |  Pin  | Arduino Pin | I/O
